@@ -35,6 +35,8 @@ namespace PatientReport.dbHelper
                 ds = new DataSet();
                 adap.Fill(ds);
                 con.Close();
+
+                
                 //cmd.CommandType = CommandType.
                 //dbo.getPatientDetails
             }
